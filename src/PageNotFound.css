@@ -1,0 +1,28 @@
+.pageNotFound-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageNotFound-container div img {
+    height: 300px;
+}
+
+.go-back {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 575.98px) {
+    .pageNotFound-container {
+        min-height: 50vh;
+        height: auto;
+        padding: 24px 14px;
+    }
+
+    .pageNotFound-container div img {
+        max-width: min(300px, 85vw);
+        height: auto;
+    }
+}
